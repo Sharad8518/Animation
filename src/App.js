@@ -1,6 +1,7 @@
 
-import './App.css';
+
 import Coca from './component/Coca/Coca';
+import Three from './component/Three';
 
 
 
@@ -9,9 +10,9 @@ function App() {
    
 
   return (
-    <div className="App">
-    <Coca/>
-    </div>
+    
+    <Three/>
+    
   );
 }
 
