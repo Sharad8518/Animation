@@ -1,18 +1,16 @@
-
-
-import Coca from './component/Coca/Coca';
-import Three from './component/Three';
-
-
+import React ,{useEffect}from 'react'
+import { init } from '../src/util/initDronLayer'
 
 function App() {
 
-   
+  useEffect(()=>{
+        
+    init()
+},[])
+
 
   return (
-    
-    <Three/>
-    
+<h1>asdas</h1>
   );
 }
 
