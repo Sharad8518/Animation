@@ -4,12 +4,12 @@ author: Warkarma (https://sketchfab.com/warkarma)
 license: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 source: https://sketchfab.com/3d-models/winter-at-home-holiday2020challenge-6dd58b216b7e4b56b4c246b217845e66
 title: Winter at home - Holiday2020Challenge
-*/
+*/  
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+export function House(props) {
   const { nodes, materials } = useGLTF('/house.gltf')
   return (
     <group {...props} dispose={null}>
