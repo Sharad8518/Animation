@@ -81,11 +81,17 @@ function Sphare(){
 export default function Threepart2() {
 
   return (
+    <> 
+    
+    
+    
     <Canvas>
       <directionalLight intensity={0.5}/>
     <Sphare/>  
     <Skybox/>
+   
     <CameraControls/>
  </Canvas>
+ </>
   )
 }
